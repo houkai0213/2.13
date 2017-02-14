@@ -121,7 +121,7 @@ class Drag{
 
 var box=document.querySelector(".box");	
 var newobj=new Drag();
-// newobj.constructor(box);
+newobj.constructor(box);
 newobj.drags();
 
 
